@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        .bg{
+            background-image:url('https://i.pinimg.com/736x/2a/2f/f7/2a2ff7a11363cc6b8f473cf407f8f647.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-style: papyrus;
+            text-align: center;
+            font-size: x-large;
+            color:black;
+        }
+    </style>
+</head>
+<body class="bg" ><h4>Profile</h4>
+    <h1>Welcome, <%= user.Fullname %>!</h1>
+    <h1>Email: <%= user.Email %></h1>
+    <h3>Thanks for choosing us,we ensure you a happy shopping</h3>
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
